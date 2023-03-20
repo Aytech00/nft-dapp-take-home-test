@@ -1,0 +1,98 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.modal_wrap {
+  position: fixed;
+  top: 30vh;
+  left: 30%;
+  width: 40%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.inner_modal_wrap {
+  
+  padding: 5% 5%;
+  background-color: #2a2a31;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: rgba(84, 84, 84, 0.2) 0px 12px 28px 0px, rgba(84, 80, 80, 0.1) 0px 2px 4px 0px, rgba(213, 205, 205, 0.05) 0px 0px 0px 1px inset;
+
+}
+
+.name {
+  color: #e2fdf0;
+
+  
+}
+
+.desc_wrap {
+  margin-top: 5%;
+}
+
+.desc {
+
+  line-height: 1.8;
+  color: whitesmoke;
+}
+
+.modal_btn_wrap {
+  margin-top: 5%;
+}
+.modal_btn {
+  padding: 8px 15px;
+  border-radius: 10px;
+  width: 100px;
+  border: 0;
+  cursor: pointer;
+  background-color: #e2fdf0;
+}
+
+.nft_type_wrap{
+  margin-top: 3%;
+}
+
+
+.nft_type_field{
+  color: whitesmoke;
+  margin-right: 5px;
+}
+
+.nft_type_data{
+  color: #53f4a9;
+}
+
+
+/* Mobile */
+
+
+@media screen and (max-width:900px){
+  .modal_wrap{
+    width: 80%;
+    left: 10%;
+    
+  }
+
+  .inner_modal_wrap{
+    padding: 9% 7%;
+  }
+  .desc_wrap{
+    margin-bottom: 1rem;
+  }
+  .nft_type_wrap{
+    margin-bottom: 2rem;
+  }
+
+  .modal_btn_wrap{
+    
+  }
+  
+}

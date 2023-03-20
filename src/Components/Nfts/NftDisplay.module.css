@@ -1,0 +1,55 @@
+.li {
+  list-style: none;
+  text-align: center;
+
+  margin: 0px 10px;
+
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 100, 0.4) 0px 0px 0px 2px,
+    rgba(88, 92, 90, 0.65) 0px 4px 6px -1px,
+    rgba(168, 168, 168, 0.08) 0px 1px 0px inset;
+    cursor: pointer;
+}
+
+.img_wrap {
+  padding: 17px;
+}
+
+.nft_img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.nft_sub_details {
+  display: flex;
+  justify-content: center;
+  padding: 14px 2px;
+}
+
+.name_wrap {
+  margin-right: 3rem;
+}
+
+.name_text {
+  color: white;
+  font-size: 15px;
+}
+
+/* .price_wrap{
+    
+} */
+
+.price_text {
+  color: #53f4a9;
+}
+
+
+/* Mobile */
+
+
+@media screen and (max-width:900px){
+ .li{
+  margin-bottom: 8%;
+ }
+  
+}
